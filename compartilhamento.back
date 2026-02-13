@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+  <html lang="PT-BR">
+      <head>
+
+       <tittle>Frontend</tittle>
+       <meta charset="utf-8">
+       <link rel="stylesheet" type="text/css" href="">
+       <script></script>
+       
+      </head>
+    <style>
+
+     .body{
+        background-color: red;
+        color:white;
+      }
+      .iguais{
+        color: yellow;
+      }
+      .submit{
+        color: black;
+      }
+      .mengo{
+        color: black
+      }
+      
+    </style>
+      <body class="body">
+
+      <p class="mengo">Bom dia, GOAT FLAMENGO PARÇA</p>
+        <form method="POST" action="index.php">
+          <fieldset>
+
+            <legend>
+              
+              Primeiro Formulario de um torcedor do flamengo
+            
+            </legend>
+            <br>
+
+            <p class="iguais">Usuario:</p> <input type="text" placeholder="Usuario" minlength="5" maxlength="10" required><br>
+            <p class="iguais">Senha:</p> <input type="password" placeholder="Senha" minlength="5" maxlength="10" required><br>
+            <input type="submit" value="Registrar" class="submit">
+          </fieldset>
+        </form>
+        
+      </body>
+  </html>
 
